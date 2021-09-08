@@ -28,6 +28,28 @@ Para trabajar con este analizador de sentimientos, primero se debe clonar el rep
 git clone https://github.com/Jorge-Padilla/ActIntegradora2
 ```
 
+Una vez obtenido el codigo, lo primero que debes hacer es descargar el paquete de NLTK, esto se hace mediante la ejecución del comando
+```python
+nltk.download()
+```
+Aparecerá en terminal el siguiente texto
+```shell
+NLTK Downloader
+---------------------------------------------------------------------------
+    d) Download   l) List    u) Update   c) Config   h) Help   q) Quit
+---------------------------------------------------------------------------
+Downloader>
+```
+Se debe ingresar primeramente d para descargar NLTK
+```shell
+Download which package (l=list; x=cancel)?
+  Identifier>
+```
+Ingrese all para descargar NLTK en su totalidad.
+Una vez terminada la descarga, ingrese q para salir del instalador
+
+..
+
 Para ejecuitar el programa, se debe correr el comando
 ```shell
 COMANDO DE EJECUCION
