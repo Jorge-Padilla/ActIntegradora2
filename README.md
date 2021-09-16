@@ -15,7 +15,16 @@ La principal libreria utilizada en este proyecto es Natural Language Toolkit (NL
 
 ## Archivos
 
-Los archivos presentes .txt y .pickle en este git son necesarios para la ejecución rapida de este algoritmo, estos son generados en el mismo, pero el contar con ellos para la ejecucion general salva hasta 40 minutos de ejecución
+Los archivos presentes .txt y .pickle en este git son necesarios para la ejecución rapida de este algoritmo, estos son generados en el mismo, pero el contar con ellos para la ejecucion general salva hasta 40 minutos de ejecución, estos archivos son:
+
+- BernouliNB_classifier.pickle
+- LinearSVC_classifier.pickle
+- LogisticRegression_classifier.pickle
+- MNB_classifier.pickle
+- naivebayes.pickle
+- SGDClassifier_classifier.pickle
+- negative.txt
+- positive.txt
 
 ## Desarrollo
 
