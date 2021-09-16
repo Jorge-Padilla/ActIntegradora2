@@ -11,7 +11,7 @@ Este repositorio contiene nuestra implementación de la segunda actividad integr
 
 ## Librerias
 
-La principal libreria utilizada en este proyecto es Natural Language Toolkit (NLTK), la cual es una librería de Python que incorpora muchas funcionalidades estadísticas para procesar texto, así como scikit-learn, la cual es una libreria que cuenta con funciones basicas de aprendizaje automático, tambien se requiere tweepy, para acceder a twitter, y finalmente matplotlib, para poder graficar datos.
+La principal libreria utilizada en este proyecto es Natural Language Toolkit (NLTK), la cual es una librería de Python que incorpora muchas funcionalidades estadísticas para procesar texto, así como scikit-learn, la cual es una libreria que cuenta con funciones basicas de aprendizaje automático, tambien se requiere tweepy, para acceder a twitter, numpy para trabajar mejor con numeros y estructuras de datos, y finalmente matplotlib, para poder graficar datos.
 
 Toda la información referente a los requerimientos del ambiente estan presentes en el archivo requirements.txt, por lo que este se puede utilizar
 
