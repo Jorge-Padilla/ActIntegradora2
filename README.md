@@ -63,6 +63,8 @@ Download which package (l=list; x=cancel)?
 Ingrese all para descargar NLTK en su totalidad.
 Una vez terminada la descarga, ingrese q para salir del instalador
 
+En caso de tener el instalador grafico, con seleccionar la celda de all descargara todo lo necesario, y despues se puede cerrar la ventana
+
 El siguiente recuadro requiere los archivos .pickle para reducir el tiempo de ejecución, por lo que recomendamos mantenerlos en el mismo directorio en el que esta presente el archivo .ipynb
 
 Los ultimos recuadros corren el algoritmo, estos requieren una palabra clave, la cual puede ser modificada a gusto de ejecución, por default viene presente "Amazing"
