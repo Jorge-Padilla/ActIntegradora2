@@ -11,7 +11,11 @@ Este repositorio contiene nuestra implementación de la segunda actividad integr
 
 ## Librerias
 
-La principal libreria utilizada en este proyecto es Natural Language Toolkit (NLTK), la cual es una librería de Python que incorpora muchas funcionalidades estadísticas para procesar texto, así como scikit-learn, la cual es una libreria que cuenta con funciones basicas de aprendizaje automático.
+La principal libreria utilizada en este proyecto es Natural Language Toolkit (NLTK), la cual es una librería de Python que incorpora muchas funcionalidades estadísticas para procesar texto, así como scikit-learn, la cual es una libreria que cuenta con funciones basicas de aprendizaje automático, y finalmente matplotlib, para poder graficar datos.
+
+## Archivos
+
+Los archivos presentes .txt y .pickle en este git son necesarios para la ejecución rapida de este algoritmo, estos son generados en el mismo, pero el contar con ellos para la ejecucion general salva hasta 40 minutos de ejecución
 
 ## Desarrollo
 
@@ -28,7 +32,9 @@ Para trabajar con este analizador de sentimientos, primero se debe clonar el rep
 git clone https://github.com/Jorge-Padilla/ActIntegradora2
 ```
 
-Una vez obtenido el codigo, lo primero que debes hacer es descargar el paquete de NLTK, esto se hace mediante la ejecución del comando
+Presente en el archivo .ipynb se encuentran los recuadros de cada tutorial, y al final estan presentes 5 recuadros con toda la funcionalidad concreta del algoritmo, por lo que para trabajar con este de forma general nos referiremos a estos recuadros
+
+Una vez obtenido el codigo, lo primero que debes hacer es contar con las librerias utilizadas mencionadas anteriormente, despues de esto, se debe descargar el paquete de NLTK, esto se hace mediante la ejecución del comando
 ```python
 nltk.download()
 ```
@@ -48,9 +54,18 @@ Download which package (l=list; x=cancel)?
 Ingrese all para descargar NLTK en su totalidad.
 Una vez terminada la descarga, ingrese q para salir del instalador
 
-..
+El siguiente recuadro requiere los archivos .pickle para reducir el tiempo de ejecución, por lo que recomendamos mantenerlos en el mismo directorio en el que esta presente el archivo .ipynb
 
-Para ejecuitar el programa, se debe correr el comando
-```shell
-COMANDO DE EJECUCION
+Los ultimos recuadros corren el algoritmo, estos requieren una palabra clave, la cual puede ser modificada a gusto de ejecución, por default viene presente "Amazing"
+
+```python
+twitterStream.filter(track=["Amazing"])
 ```
+
+La ejecución de este recuadro es infinita, por lo que se debe pausar manualmente
+
+## Twitter Developer
+
+Este algoritmo utiliza una cuenta de Twitter Developer para poder obtener la información de los tweets, estas cuentan con limites de hasta medio millon de tweets.
+
+La cuenta ingresada por un colaborador esta presente para disponibilidad, pero en el momento en el que esta llegue al limite se deberá cambiar a otra cuenta de desarrollador a elección del usuario
