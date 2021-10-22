@@ -7,7 +7,7 @@
 ### Jorge Antonio Ruiz Zavalza       A01411162
 ### Guillermo Sáenz González         A00823049
 
-Este repositorio contiene nuestra implementación de la segunda actividad integradora de la materia de Procesamiento de Lenguaje Natural, la cual consiste en un analizador de sentimientos
+Este repositorio contiene nuestra implementación de la tercera actividad integradora de la materia de Procesamiento de Lenguaje Natural, la cual consiste en un analizador de sentimientos
 
 ## Librerias
 
