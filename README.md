@@ -139,6 +139,19 @@ var record = time => new Promise(async resolve => {
 
 Utiliza el bloque de _Function definition for audio recording_ para definir esta seccion de codigo con la funcionalidad, y la seccion de _Recording audio and speech recognition_ para mostrar su funcionamiento haciendo el reconocimiento de audio
 
+## Bases de Datos
+
+Las bases de datos investigadas e incorporadas para esta actividad integradora son:
+
+Stanford Sentiment Treebank v2 (SST2)
+https://www.kaggle.com/atulanandjha/stanford-sentiment-treebank-v2-sst2
+
+Johns Hopkins Multi-Domain Sentiment Dataset ∑∞
+https://www.kaggle.com/jeromeblanchet/multidomain-sentiment-analysis-dataset?select=unprocessed
+
+Sentiment140 dataset with 1.6 million tweets
+https://www.kaggle.com/kazanova/sentiment140
+
 ## Twitter Developer
 
 Este algoritmo utiliza una cuenta de Twitter Developer para poder obtener la información de los tweets, estas cuentan con limites de hasta medio millon de tweets.
