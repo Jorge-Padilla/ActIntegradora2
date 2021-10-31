@@ -47,7 +47,7 @@ El desarrollo de la actividad integradora 2 esta fuertemente basado en los tutor
 
 El analizador de sentimientos funciona con twitter y reddit, y tambien es puede trabajar con audios; este es capaz de clasificar tweets entre positivos y negativos
 
-También se incluyen implementaciones para youtube y tumblr
+También se incluyen implementaciones para youtube, facebook y tumblr
 
 ## Uso
 
@@ -60,7 +60,7 @@ Presente en el archivo .ipynb se encuentran los recuadros de cada tutorial, y al
 
 Después de estos recuadros estan presentes los agregados de la actividad integradora 3, donde primeramente tenemos una base de datos que tiene texto etiquetado como positivo o negativo, una funcionalidad para transcribir audio a texto, la funcionalidad de buscar Tweets por usuarios, la funcionalidad de buscar posts en Reddit por usuarios, Tres arquitecturas diferentes de RNN para la clasificación de texto como positivo o negativo y métricas  de  evaluación de  cada  uno  de  sus  clasificadores.
 
-Tambien se incluyen 3 agregados extra, los cuales son mas la implementacion de Youtube, la de Tumblr y un modelo que clasifica mas que solo 2 sentimientos
+Tambien se incluyen 3 agregados extra, los cuales son mas la implementacion de Youtube, la de Facebook, la de Tumblr y un modelo que clasifica mas que solo 2 sentimientos
 
 ### Actividad Integradora 2
 
@@ -146,9 +146,11 @@ var record = time => new Promise(async resolve => {
 
 Utiliza el bloque de _Function definition for audio recording_ para definir esta seccion de codigo con la funcionalidad, y la seccion de _Recording audio and speech recognition_ para mostrar su funcionamiento haciendo el reconocimiento de audio
 
-Los recuadros de _More Social Networs_ incluyen la implementgacion de librerias de Youtube y Tumblr para nuestros modelos. Ambos requieren API Keys para su ejecucion las cuales ya estan incluidas en estos archivos. Para extraer los posts de un usuario especifico solo se requiere el nombre de este.
+Los recuadros de _More Social Networs_ incluyen la implementgacion de librerias de Youtube, Facebook y Tumblr para nuestros modelos. Ambos requieren API Keys para su ejecucion las cuales ya estan incluidas en estos archivos. Para extraer los posts de un usuario especifico solo se requiere el nombre de este.
 Podemos solicitarlos con el método "posts", y se nos regresa un diccionario con todos los datos de los posts.
-Por default se recuperan los 50 más recientes, y una liga para los siguientes 50
+Por default se recuperan los 50 más recientes, y una liga para los siguientes 50.
+El módulo de facebook permite generar una liga para hacer login y darle los permisos de acceder a los posts, pero no es tan sencillo para recuperar el token generado.
+Para supera este obstaculo, se generó previamente un token y se le dió acceso extendido, es el que está presente en el programa.
 
 ## Bases de Datos
 
