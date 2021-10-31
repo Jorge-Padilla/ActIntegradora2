@@ -11,7 +11,7 @@ Este repositorio contiene nuestra implementación de la segunda y tercera activi
 
 ## Librerias
 
-Para la actividad integradora 2, la principal libreria utilizada en este proyecto es Natural Language Toolkit (NLTK), la cual es una librería de Python que incorpora muchas funcionalidades estadísticas para procesar texto, así como scikit-learn, la cual es una libreria que cuenta con funciones basicas de aprendizaje automático, tambien se requiere tweepy, para acceder a twitter, numpy para trabajar mejor con numeros y estructuras de datos, matplotlib para poder graficar datos, y finalmente json para trabajar con estos archivos.
+Para la actividad integradora 2, la principal libreria utilizada en este proyecto es Natural Language Toolkit (NLTK), la cual es una librería de Python que incorpora muchas funcionalidades estadísticas para procesar texto, así como scikit-learn, la cual es una libreria que cuenta con funciones basicas de aprendizaje automático, tambien se requiere tweepy, para acceder a twitter, pytumblr para acceder a tumblr, numpy para trabajar mejor con numeros y estructuras de datos, matplotlib para poder graficar datos, y finalmente json para trabajar con estos archivos.
 
 Como agregado para la actividad integradora 3, se requieren mas librerias. Primeramente re, la cual ayuda a trabajar con expresiones regulares, tambien se necesita praw que es el API de Reddit. Otras librerias incluidas son google y ipython para trabajar con agregados de google y shell, para la parte de audio se incluye SpeechRecognition para el reconocimiento y PyAudio para el trabajo del mismo.
 
@@ -42,6 +42,8 @@ El desarrollo de la actividad integradora 2 esta fuertemente basado en los tutor
 
 El analizador de sentimientos funciona con twitter y reddit, y tambien es puede trabajar con audios; este es capaz de clasificar tweets entre positivos y negativos
 
+También se incluyen implementaciones para youtube y tumblr
+
 ## Uso
 
 Para trabajar con este analizador de sentimientos, primero se debe clonar el repositorio, ya sea mediante la opcion de clone de la interfaz de GitHub o desde terminal
@@ -53,7 +55,7 @@ Presente en el archivo .ipynb se encuentran los recuadros de cada tutorial, y al
 
 Después de estos recuadros estan presentes los agregados de la actividad integradora 3, donde primeramente tenemos una base de datos que tiene texto etiquetado como positivo o negativo, una funcionalidad para transcribir audio a texto, la funcionalidad de buscar Tweets por usuarios, la funcionalidad de buscar posts en Reddit por usuarios, Tres arquitecturas diferentes de RNN para la clasificación de texto como positivo o negativo y métricas  de  evaluación de  cada  uno  de  sus  clasificadores.
 
-Tambien se incluyen 3 agregados extra, los cuales son mas redes sociales, modelos mas avanzados y un modelo que clasifica mas que solo 2 sentimientos
+Tambien se incluyen 3 agregados extra, los cuales son mas la implementacion de Youtube, la de Tumblr y un modelo que clasifica mas que solo 2 sentimientos
 
 ### Actividad Integradora 2
 
