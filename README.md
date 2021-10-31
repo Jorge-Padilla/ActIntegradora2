@@ -34,6 +34,11 @@ Para la actividad integradora 2, los archivos presentes .txt y .pickle en este g
 - negative.txt
 - positive.txt
 
+Otro archivo necesario esta presente en:
+https://drive.google.com/file/d/1l-fhoU4ASMPO-C3pwsQMVu6KIw4TaOuq/view?usp=sharing
+
+Ya que por su tamaño no lo permite git, este es el embebido glove utilizado
+
 ## Desarrollo
 
 El desarrollo de la actividad integradora 2 esta fuertemente basado en los tutoriales de Sentdex: https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL
