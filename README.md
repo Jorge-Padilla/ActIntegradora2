@@ -141,6 +141,10 @@ var record = time => new Promise(async resolve => {
 
 Utiliza el bloque de _Function definition for audio recording_ para definir esta seccion de codigo con la funcionalidad, y la seccion de _Recording audio and speech recognition_ para mostrar su funcionamiento haciendo el reconocimiento de audio
 
+Los recuadros de _More Social Networs_ incluyen la implementgacion de librerias de Youtube y Tumblr para nuestros modelos. Ambos requieren API Keys para su ejecucion las cuales ya estan incluidas en estos archivos. Para extraer los posts de un usuario especifico solo se requiere el nombre de este.
+Podemos solicitarlos con el método "posts", y se nos regresa un diccionario con todos los datos de los posts.
+Por default se recuperan los 50 más recientes, y una liga para los siguientes 50
+
 ## Bases de Datos
 
 Las bases de datos investigadas e incorporadas para esta actividad integradora son:
